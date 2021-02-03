@@ -1,0 +1,33 @@
+{
+  "name": "@dolgit/secure-package-builder",
+  "version": "0.1.1-development",
+  "description": "The base of building open source projects",
+  "browser": "lib/index.js",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "es",
+    "lib",
+    "umd"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.0.14",
+    "babel-jest": "26.6.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "jest": "26.0.1",
+    "nwb": "0.23.0"
+  },
+  "author": "Alex Dollery (DolNpm/DolGit)",
+  "homepage": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DolGit/secure-package-builder.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "dependencies": {}
+}
